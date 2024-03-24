@@ -1,0 +1,28 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": "airbnb-base",
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "semi": ["error"],
+        "quotes": ["error", "single"],
+        "props": ["error"],
+        "no-console": "off",
+        "no-use-before-define": ["error", {
+          "functions": false,
+          "classes": true,
+          "variables": false,
+          "allowNamedExports": false
+      }],
+      "radix": ["error", "as-needed"],
+      "no-param-reassign": ["off"],
+      "wrap-iife": [],
+      "no-shadow": ["error", { "ignoreOnInitialization": false }],
+      "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+      "prefer-destructuring": ["error", {"object": true, "array": false}]
+    }
+}

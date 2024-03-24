@@ -1,0 +1,123 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: darksalmon;
+}
+
+.task {
+  color: #fff;
+  font-family: sans-serif;
+}
+.header__title {
+  font-family: sans-serif;
+  color: #fff;
+}
+.header {
+  text-align: center;
+}
+.header__form {
+  margin-top: 13px;
+}
+.header__input {
+  height: 30px;
+  padding-left: 12px;
+}
+.header__button {
+  width: 60px;
+  height: 36px;
+  background-color:darksalmon;
+  color: #fff;
+  border: none;
+}
+.main-box {
+  margin-top: 30px;
+  background-color: #fff;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 30px;
+}
+.box {
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  padding: 0;
+}
+.list-item {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:darksalmon;
+  color: #fff;
+  height: 45px;
+  border-radius: 10px;
+  margin-top: 5px;
+  padding: 5px;
+}
+.filters button {
+  width: 100px;
+  height: 30px;
+}
+.button {
+  height: 30px;
+}
+.pagination {
+  text-align: center;
+  margin-top: 10px;
+}
+.pagination button {
+  margin-left: 3px;
+}
+.buttonTask {
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  background-color: darksalmon;
+  border: none;
+  cursor: pointer;
+}
+.active {
+  background-color: #fff;
+  border-radius: 50px;
+  border: 1px solid white;
+  border-color:#fff ;
+  color: darksalmon;
+  width: 40px;
+  height: 40px;
+}
+.pag-button {
+  background-color: darksalmon;
+  border-radius: 50px;
+  border: 1px solid white;
+  border-color:#fff ;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+}
+.button-filter {
+  background-color: white;
+  border: 1px solid darksalmon;
+  color: darksalmon;
+  width: 40px;
+  height: 40px; 
+}
+.button-filter-active {
+  background-color: darksalmon;
+  color: #fff;
+  border: none;
+}
+.button-delete {
+  background-color: darkorange;
+  border: none;
+  height: 40px;
+  margin-top: 20px;
+}
+.error-text {
+  display: none;
+  color: red;
+}

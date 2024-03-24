@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>TodoJs App</title>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 class="header__title">TodoJs App</h1>
+      <label>Check all todos</label>
+      <input 
+        id="allCheckbox" 
+        type="checkbox"
+        class="header__checkbox" 
+        required >
+    </header>
+    <div class="main-box">
+      <form id="headerForm" class="header__form">
+        <input id="headerInput" type="text" class="header__input">
+        <button id="headerButton" class="header__button">ADD</button>
+      </form>
+      <div class="error-text">the field must not be empty!</div>
+      <ul id="taskList" class="box"></ul>
+      <div class="filters">
+        <button class="button-filter-active" id="all">All(0)</button>
+        <button class="button-filter" id="active">Active(0)</button>
+        <button class="button-filter" id="completed">Completed(0)</button>
+      </div>
+      <button id="delCompleted" class="button-delete">Delete completed</button>
+    </div>
+    <div class="pagination"></div>
+  </div>
+  <script src="script.js"></script>
+</body>                                             
+</html>
